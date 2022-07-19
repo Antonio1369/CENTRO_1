@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/lungs"
+            android:title="EPOC" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hipertension"
+            android:title="HIPERTENSIÓN ARTERIAL" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/diabetes"
+            android:title="DIABETES" />
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/rinones"
+            android:title="INSUFICIENCIA RENAL" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/corazon"
+            android:title="ENF. CARDIOVASCULAR" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="MONITOREO EN TIEMPO REAL" />
+    </group>
+</menu>
